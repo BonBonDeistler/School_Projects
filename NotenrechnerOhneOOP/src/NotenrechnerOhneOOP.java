@@ -93,7 +93,7 @@ public class NotenrechnerOhneOOP {
 		int neuePunktzahl = sc.nextInt();
 		if (neuePunktzahl < 0 || neuePunktzahl > 100) {
 			System.out.println("Fehlerhafte Eingabe. Probier es nochmal");
-			neueEingabe();	
+			neuePunktzahl = neueEingabe();	
 		}
 		return neuePunktzahl;
 	}
@@ -190,4 +190,5 @@ public class NotenrechnerOhneOOP {
 		
 }
 	
+
 
