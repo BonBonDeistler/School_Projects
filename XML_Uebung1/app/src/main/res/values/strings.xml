@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">XML_Uebung1</string>
+    <string name="violet">VIOLET</string>
+    <string name="indigo">INDIGO</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+    <string name="yellow">YELLOW</string>
+    <string name="orange">ORANGE</string>
+    <string name="red">RED</string>
+    <string name="relative_layout_examples">Relative Layout Examples</string>
+    <string name="edit_text">EDIT TEXT</string>
+    <string name="button">BUTTON</string>
+    <string name="text">TEXT</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="go">Go !</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="login_with_twitter">Login With Twitter</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="about_us">About us</string>
+    <string name="contact">Contact</string>
+    <string name="teiler">|</string>
+</resources>
