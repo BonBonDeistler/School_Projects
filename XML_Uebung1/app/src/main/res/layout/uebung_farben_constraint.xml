@@ -84,7 +84,7 @@
         app:layout_constraintGuide_percent="0.8"
         android:orientation="vertical"/>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <TextView
         android:id="@+id/constraintLayout5"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -92,7 +92,7 @@
         app:layout_constraintBottom_toBottomOf="@id/guideline1h"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -100,11 +100,11 @@
         android:background="@color/grey"
         android:text="@string/relative_layout_examples"
         android:textColor="@color/lightgrey"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline2h"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guideline1h"></TextView>
+        app:layout_constraintTop_toTopOf="@id/guideline1h"/>
 
     <TextView
         android:layout_width="0dp"
@@ -113,11 +113,11 @@
         android:gravity="center"
         android:text="@string/red"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline3h"
         app:layout_constraintEnd_toEndOf="@id/guideline1v"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guideline2h"></TextView>
+        app:layout_constraintTop_toTopOf="@id/guideline2h"/>
 
     <TextView
         android:layout_width="0dp"
@@ -126,11 +126,11 @@
         android:gravity="center"
         android:text="@string/orange"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline3h"
         app:layout_constraintEnd_toEndOf="@id/guideline4v"
         app:layout_constraintStart_toStartOf="@id/guideline3v"
-        app:layout_constraintTop_toTopOf="@id/guideline2h"></TextView>
+        app:layout_constraintTop_toTopOf="@id/guideline2h"/>
 
     <TextView
         android:layout_width="0dp"
@@ -139,11 +139,11 @@
         android:gravity="center"
         android:text="@string/yellow"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline3h"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/guideline5v"
-        app:layout_constraintTop_toTopOf="@id/guideline2h"></TextView>
+        app:layout_constraintTop_toTopOf="@id/guideline2h"/>
 
     <TextView
         android:layout_width="0dp"
@@ -153,11 +153,11 @@
         android:gravity="center"
         android:text="@string/green"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline5h"
         app:layout_constraintEnd_toEndOf="@id/guideline3v"
         app:layout_constraintStart_toStartOf="@id/guideline2v"
-        app:layout_constraintTop_toTopOf="@id/guideline4h"></TextView>
+        app:layout_constraintTop_toTopOf="@id/guideline4h"/>
 
 
     <TextView
@@ -168,11 +168,11 @@
         android:gravity="center"
         android:text="@string/blue"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline5h"
         app:layout_constraintEnd_toEndOf="@id/guideline4v"
         app:layout_constraintStart_toStartOf="@id/guideline3v"
-        app:layout_constraintTop_toTopOf="@id/guideline4h"></TextView>
+        app:layout_constraintTop_toTopOf="@id/guideline4h"/>
 
     <TextView
         android:layout_width="0dp"
@@ -182,11 +182,11 @@
         android:gravity="center"
         android:text="@string/indigo"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline5h"
         app:layout_constraintEnd_toEndOf="@id/guideline5v"
         app:layout_constraintStart_toStartOf="@id/guideline4v"
-        app:layout_constraintTop_toTopOf="@id/guideline4h"></TextView>
+        app:layout_constraintTop_toTopOf="@id/guideline4h"/>
 
     <TextView
         android:layout_width="0dp"
@@ -196,10 +196,10 @@
         android:gravity="center"
         android:text="@string/violet"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guideline6h"></TextView>
+        app:layout_constraintTop_toTopOf="@id/guideline6h"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

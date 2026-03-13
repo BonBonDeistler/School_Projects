@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -36,20 +37,16 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="5dp"
         android:background="@color/white"
-        android:text="TEXT"
+        android:text="@string/text"
         android:fontFamily="serif"
         android:textStyle="bold"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/guideline1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -70,36 +67,33 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="5dp"
-            android:layout_marginStart="5dp"
             android:background="@color/white"
-            android:text="TEXT"
+            android:text="@string/text"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/guideline5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"></TextView>
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <EditText
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="5dp"
-            android:text="EDIT TEXT"
+            android:text="@string/edit_text"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline5"
             app:layout_constraintTop_toTopOf="parent"
-            android:background="@color/white">
-
-        </EditText>
-
+            android:background="@color/white"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -119,51 +113,49 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="5dp"
-            android:layout_marginStart="5dp"
             android:background="@color/white"
-            android:text="TEXT"
+            android:text="@string/text"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/guideline6"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"></TextView>
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <EditText
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="5dp"
-            android:text="EDIT TEXT"
+            android:text="@string/edit_text"
             android:fontFamily="serif"
             android:textStyle="bold"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline6"
             app:layout_constraintTop_toTopOf="parent"
-            android:background="@color/white">
-        </EditText>
+            android:background="@color/white"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/white"
-        android:text="BUTTON"
+        android:text="@string/button"
         android:textColor="@color/black"
         android:fontFamily="serif"
         android:textStyle="bold"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@id/guideline4"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guideline3"></Button>
+        app:layout_constraintTop_toTopOf="@id/guideline3"/>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <TextView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/white"
@@ -171,8 +163,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline4">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="@+id/guideline4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

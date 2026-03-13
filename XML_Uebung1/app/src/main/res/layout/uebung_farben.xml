@@ -28,8 +28,7 @@
             android:orientation="vertical"
             android:text="@string/relative_layout_examples"
             android:textColor="@color/lightgrey"
-            android:textSize="20dp">
-        </TextView>
+            android:textSize="20sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,8 +45,7 @@
                 android:text="@string/red"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:textSize="20dp">
-            </TextView>
+                android:textSize="20sp"/>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -64,8 +62,7 @@
                 android:text="@string/orange"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:textSize="20dp">
-            </TextView>
+                android:textSize="20sp"/>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -82,8 +79,7 @@
                 android:text="@string/yellow"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:textSize="20dp">
-            </TextView>
+                android:textSize="20sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -115,10 +111,8 @@
                 android:text="@string/green"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:textSize="20dp"
-                android:layout_margin="5dp">
-            </TextView>
-
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -128,9 +122,8 @@
                 android:text="@string/blue"
                 android:gravity="center"
                 android:textColor="@color/white"
-                android:textSize="20dp"
-                android:layout_margin="5dp">
-            </TextView>
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -140,9 +133,8 @@
                 android:text="@string/indigo"
                 android:gravity="center"
                 android:textColor="@color/white"
-                android:textSize="20dp"
-                android:layout_margin="5dp">
-            </TextView>
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
 
             <LinearLayout
             android:layout_width="0dp"
@@ -167,9 +159,7 @@
             android:text="@string/violet"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="20dp">
-        </TextView>
-
+            android:textSize="20sp"/>
     </LinearLayout>
 
 </LinearLayout>
